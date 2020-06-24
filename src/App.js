@@ -1,38 +1,12 @@
 import React, { Component } from "react";
 import DogList from "./DogList";
 import SearchBox from "./SearchBox";
+import dogData from './dogData'
 import "./index.css";
 
 class App extends Component {
   state = {
-    dogs: [
-      {
-        id: 1,
-        name: "Max",
-        breed: "Labrador",
-      },
-      {
-        id: 2,
-        name: "Sparky",
-        breed: "German Shephard",
-      },
-      {
-        id: 3,
-        name: "Rex",
-        breed: "Boxer",
-      },
-      {
-        id: 4,
-        name: "Sally",
-        breed: "Poodle",
-      },
-      {
-        id: 5,
-        name: "George",
-        breed: "Pitbull",
-      },
-      
-    ],
+    dogs: dogData,
 
     searchDog: "",
   };
@@ -54,7 +28,7 @@ class App extends Component {
           handleChange={this.handleChange}
           searchDog={this.state.searchDog}
         />
-        <div style={boxList}>
+        <div className="boxList">
           <DogList filteredDogs={filteredDogs} />
         </div>
       </div>
@@ -68,7 +42,6 @@ const container = {
   alignItems: "center",
 };
 
-const boxList ={
-  display: 'flex',
-}
+
+
 export default App;
