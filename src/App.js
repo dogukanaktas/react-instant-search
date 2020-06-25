@@ -19,7 +19,7 @@ class App extends Component {
 
   render() {
     const filteredDogs = this.state.dogs.filter((item) =>
-      item.name.toLowerCase().includes(this.state.searchDog.toLowerCase())
+    item.name.toLowerCase().indexOf(this.state.searchDog.toLowerCase()) === 0
     );
 
     return (
