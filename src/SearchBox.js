@@ -1,4 +1,5 @@
 import React from "react";
+import './index.css'
 
 const SearchBox = ({ handleChange, searchDog }) => {
   const boxStyle = {
@@ -21,7 +22,7 @@ const SearchBox = ({ handleChange, searchDog }) => {
         style={boxStyle}
         className="searchBox"
         type="text"
-        placeholder="Enter the dog's name ..."
+        placeholder="Enter the dog name ..."
         value={searchDog}
         onChange={(e) => handleChange(e)}
       />
