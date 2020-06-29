@@ -1,6 +1,6 @@
 #  React Instant Search
 
-- Instant search for dog's name in React.
+- Instant search for dog name in React.
 
 ### Requirements
 - Node.js and npm or yarn
