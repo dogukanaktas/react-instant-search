@@ -1,4 +1,6 @@
 import React from "react";
+import './index.css'
+
 
 const Dog = ({ name, breed }) => {
   const listStyle = {
