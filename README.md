@@ -1,6 +1,6 @@
 #  React Dog Name Search
 
-- This project is a fully responsive instant search application created with React.js. The user can search instantly by typing the name he/she wants to find among the listed dog names and breeds in the search box. Dog names will be filtered instantly when the user searches.
+- This project is a fully responsive instant search application created with React.js. The user can search instantly by typing the name she/he wants to find among the listed dog names and breeds in the search box. Dog names will be filtered instantly when the user searches.
 
 ### Requirements
 - Node.js and npm or yarn
